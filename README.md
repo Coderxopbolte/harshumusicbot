@@ -1,5 +1,6 @@
 <h2 align="center">
-    ──「 🍷 𝗥𝗲𝗱 𝗪𝗶𝗻𝗲 🍷 」──
+    ──「 🍷 vick music
+ 🍷 」──
 </h2>
 
 <p align="center">
