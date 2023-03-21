@@ -62,6 +62,16 @@
         "value": "",
         "required": true
       }
+      "UPSTREAM_REPO": {
+        "description": "If you dont know this, Leave as it is",
+        "value": "https://github.com/Coderxopbolte/Vc-Player",
+        "required": true
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "Upstream Repo's Branch Name",
+        "value": "Master",
+        "required": true
+      }
     },
     "buildpacks": [
           {
