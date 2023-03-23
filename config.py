@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "1711510822").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Coderxopbolte/Vc-Player")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/Coder_xxop")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -80,14 +80,14 @@ START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/3089e467c20e7cbb
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/b5e1580d619a9e0c2d439.jpg",
+    "https://graph.org/file/59f650c7797ea9490b5bc.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/b5e1580d619a9e0c2d439.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/4924a1136464b3b2d768b.jpg"
 
 GLOBAL_IMG_URL = "https://telegra.ph/file/b5e1580d619a9e0c2d439.jpg"
 
-STATS_IMG_URL = "https://telegra.ph/file/b5e1580d619a9e0c2d439.jpg"
+STATS_IMG_URL = "https://graph.org/file/e9f2d77ee42b5c451a128.jpg"
 
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/b5e1580d619a9e0c2d439.jpg"
 
