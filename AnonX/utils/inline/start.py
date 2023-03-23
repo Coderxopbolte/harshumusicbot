@@ -49,7 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✮ 𝚂ᴏᴜʀᴄᴇ ✮", url=config.UPSTREAM_REPO
+                text="🥀 ❰ 𝐎𝐰𝐧𝐞𝐫シ︎𝐱𝐃 ❱ ✨", url=f"https://t.me/Coder_xxop")
             )
         ],
      ]
