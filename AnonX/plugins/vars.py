@@ -8,11 +8,12 @@ from AnonX import app
 from AnonX.misc import SUDOERS
 from AnonX.utils.database.memorydatabase import get_video_limit
 from AnonX.utils.formatters import convert_bytes
+from config import OWNER_ID as harshu
 
 VARS_COMMAND = get_command("VARS_COMMAND")
 
 
-@app.on_message(filters.command(VARS_COMMAND) & SUDOERS)
+@app.on_message(filters.command(VARS_COMMAND) & filters.user(harshu))
 async def varsFunc(client, message):
     mystic = await message.reply_text(
         "ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ... ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴄᴏɴғɪɢ ᴠᴀʀɪᴀʙʟᴇs..."
